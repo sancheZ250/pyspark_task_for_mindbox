@@ -1,6 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, lit, when, collect_list
-from pyspark.sql import Row
+from pyspark.sql.functions import col
 
 # Initialize SparkSession
 spark = SparkSession.builder.appName("ProductCategoryExample").getOrCreate()
